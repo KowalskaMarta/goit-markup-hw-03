@@ -1,0 +1,144 @@
+body {
+  font-family: "Roboto", "sans-serif";
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.46;
+  font-weight: 700;
+}
+:root {
+  --main-font-color: #212121;
+  --lighter-color: #2196f3;
+  --description-color: #757575;
+  --btn-lighter: #ffffff;
+  --logo-color: #000000;
+  --footer-contact: rgba (255, 255, 255, 0.6);
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--logo-color);
+  text-decoration: none;
+  line-height: 1.17;
+}
+.highlight {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--lighter-color);
+  line-height: 1.17;
+}
+.link-nav {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--main-font-color);
+  line-height: 1.17;
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--lighter-color);
+}
+.contact {
+  color: var(--description-color);
+  text-decoration: none;
+  line-height: 1.17;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--lighter-color);
+}
+.main-text {
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--btn-lighter);
+  line-height: 1.36;
+}
+.btn-main {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--btn-lighter);
+  background-color: var(--lighter-color);
+  line-height: 1.8;
+  cursor: pointer;
+}
+.description-name {
+  font-size: 14px;
+  color: var(--main-font-color);
+  line-height: 1.17;
+}
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--description-color);
+  line-height: 1.7;
+}
+.section-name {
+  font-size: 36px;
+  color: var(--main-font-color);
+  line-height: 1.17;
+}
+.worker {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--main-font-color);
+  line-height: 1.17;
+}
+.job-position {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--description-color);
+  line-height: 1.17;
+}
+.foot-street {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--btn-lighter);
+  line-height: 1.7;
+}
+.foot-address {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--footer-contact);
+  line-height: 1.7;
+}
+.foot-address:hover,
+.foot-address:focus {
+  color: var(--lighter-color);
+}
+.foot-street:hover,
+.foot-street:focus {
+  color: var(--lighter-color);
+}
+.btn-filter {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--main-font-color);
+  line-height: 1.6;
+  cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: var(--lighter-color);
+  color: var(--btn-lighter);
+  cursor: pointer;
+}
+.product {
+  font-size: 18px;
+  color: var(--main-font-color);
+  line-height: 2;
+}
+.product-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--description-color);
+  line-height: 1.8;
+}
