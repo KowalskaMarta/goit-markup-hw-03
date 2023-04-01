@@ -236,6 +236,9 @@ body {
   align-items: center;
   list-style: none;
 }
+.doing {
+  display: block;
+}
 .do-galery {
   display: flex;
   max-width: 1170px;
@@ -247,24 +250,28 @@ body {
   list-style: none;
 }
 .workers-section {
-  max-width: 1170px;
+  width: 100%;
   margin-top: 94px;
-  justify-content: center;
+  padding-bottom: 94px;
+  align-items: center;
+  justify-content: space-between;
   background-color: #f5f4fa;
+  flex-direction: row;
 }
+
 .workers-galery {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
   gap: 30px;
   align-items: center;
   margin-top: 50px;
   margin-left: 215px;
   list-style: none;
+  max-width: 1170px;
 }
 .footer {
   width: 100%;
-  margin-top: 60px;
   margin-bottom: 60px;
   background-color: var(--main-box-bacground);
   display: flex;
@@ -276,6 +283,7 @@ body {
   list-style: none;
   margin-top: 60px;
   margin-bottom: 60px;
+  text-decoration: none;
 }
 .box-shadow {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -304,6 +312,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 215px;
+  padding-bottom: 94px;
 }
 .galery-border {
   border: 0.1px solid #eeeeee;
