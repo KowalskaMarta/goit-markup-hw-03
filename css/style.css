@@ -26,6 +26,7 @@ body {
   --workers-bacghround: #f5f4fa;
   --hd-border-col: #ececec;
   --galery-border-col: #eeeeee;
+  --portfolio-bacgroung-col: #e5e5e5;
 }
 .logo {
   font-family: "Raleway";
@@ -199,8 +200,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   list-style: none;
   gap: 30px;
 }
@@ -209,8 +210,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   list-style: none;
   gap: 30px;
   margin-right: 227px;
@@ -235,11 +236,12 @@ body {
 .main-section {
   max-width: 1200px;
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .box-tekst {
   box-sizing: border-box;
   max-width: 1170px;
-  padding-top: 94px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -254,13 +256,12 @@ body {
   max-width: 1170px;
   flex-direction: row;
   gap: 30px;
-  align-items: center;
-  padding-top: 50px;
   list-style: none;
+  padding-top: 50px;
   padding-bottom: 94px;
 }
 .workers-section {
-  padding-top: 94px;
+  width: 100%;
   padding-bottom: 94px;
   background-color: var(--workers-bacghround);
 }
@@ -271,7 +272,6 @@ body {
   flex-direction: row;
   gap: 30px;
   align-items: center;
-  padding-left: 215px;
   list-style: none;
   padding-top: 50px;
 }
@@ -280,6 +280,7 @@ body {
   margin-bottom: 60px;
   background-color: var(--main-box-bacground);
   display: flex;
+  text-decoration: none;
 }
 .foot-design {
   flex-direction: column;
@@ -298,6 +299,9 @@ body {
   gap: 30px;
   padding-bottom: 94px;
   background-color: var(--btn-lighter);
+}
+.portfolio-bacground {
+  background-color: var(--portfolio-bacgroung-col);
 }
 .btn-portfolio {
   display: flex;
@@ -325,4 +329,5 @@ body {
 .galery-border {
   width: 370px;
   border: 1px solid var(-galery-border-col);
+  padding-bottom: 94px;
 }
