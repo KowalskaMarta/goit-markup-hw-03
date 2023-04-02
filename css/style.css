@@ -301,7 +301,7 @@ body {
   background-color: var(--btn-lighter);
 }
 .portfolio-bacground {
-  background-color: var(--portfolio-bacgroung-col);
+  background-color: var(--btn-lighter);
 }
 .btn-portfolio {
   display: flex;
@@ -316,7 +316,7 @@ body {
 }
 .galery {
   display: flex;
-  max-width: 1170px;
+  width: 100%;
   margin-top: 34px;
   gap: 30px;
   flex-wrap: wrap;
@@ -324,7 +324,6 @@ body {
   flex-basis: calc ((100%-30px) 3);
   justify-content: center;
   align-items: center;
-  margin-left: 215px;
 }
 .galery-border {
   width: 370px;
