@@ -66,7 +66,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  gap: 50px;
+  margin-right: 50px;
 }
 .contact:hover,
 .contact:focus {
@@ -234,6 +234,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  margin-top: 0px;
 }
 .box-tekst {
   box-sizing: border-box;
@@ -276,7 +277,8 @@ body {
   background-color: var(--main-box-bacground);
   display: flex;
   text-decoration: none;
-  margin-left: 0;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 .foot-design {
   flex-direction: column;
