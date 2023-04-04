@@ -319,4 +319,8 @@ body {
   border-bottom: 1px solid var(--galery-border-col);
   padding-bottom: 20px;
   padding-top: 0%;
+  display: block;
+}
+img {
+  display: block;
 }
