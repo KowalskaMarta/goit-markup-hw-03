@@ -27,6 +27,10 @@ body {
   --hd-border-col: #ececec;
   --galery-border-col: #eeeeee;
   --portfolio-bacgroung-col: #e5e5e5;
+  --box-shadow-col: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  --btn-filter-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .logo {
   font-family: "Raleway";
@@ -36,7 +40,7 @@ body {
   text-decoration: none;
   line-height: 1.17;
   display: block;
-  margin-right: 92px;
+  padding-right: 93px;
 }
 .highlight {
   font-family: "Raleway";
@@ -52,8 +56,8 @@ body {
   color: var(--main-font-color);
   line-height: 1.17;
   list-style: none;
-  gap: 46px;
   display: flex;
+  padding-right: 46px;
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -66,7 +70,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  margin-right: 50px;
+  gap: 50px;
 }
 .contact:hover,
 .contact:focus {
@@ -89,8 +93,8 @@ body {
   width: 200px;
   box-shadow: 0px 4px 4px var(--main-btn-shadow);
   border-radius: 4px;
-  align-items: center;
   padding: 10px 41px;
+  margin-top: 30px;
 }
 .description-name {
   font-size: 14px;
@@ -102,12 +106,15 @@ body {
   font-size: 14px;
   color: var(--description-color);
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .section-name {
   font-size: 36px;
   color: var(--main-font-color);
   line-height: 1.17;
   text-align: center;
+  padding-top: 0px;
+  display: block;
 }
 .worker {
   font-weight: 500;
@@ -123,6 +130,7 @@ body {
   color: var(--description-color);
   line-height: 1.17;
   padding-top: 10px;
+  padding-bottom: 30px;
   text-align: center;
 }
 .foot-street {
@@ -140,6 +148,7 @@ body {
   font-size: 14px;
   color: var(--footer-contact);
   line-height: 1.7;
+  width: 100%;
 }
 .foot-address:hover,
 .foot-address:focus {
@@ -159,8 +168,7 @@ body {
   list-style: none;
   padding: 6px 22px 6px 22px;
   margin-right: 8px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--btn-filter-shadow);
   border-radius: 4px;
 }
 .btn-filter:hover,
@@ -183,7 +191,6 @@ body {
   line-height: 1.8;
   padding-left: 24px;
   padding-top: 4px;
-  padding-bottom: 20px;
 }
 .container {
   max-width: 1200px;
@@ -197,7 +204,7 @@ body {
   padding-bottom: 94px;
 }
 .nav {
-  width: 100%;
+  max-width: 1200px;
   background-color: var(--btn-lighter);
   margin: 0;
   box-sizing: border-box;
@@ -223,45 +230,37 @@ body {
   max-width: 1200px;
   border-bottom: 1px solid var(--hd-border-col);
 }
-
 .main-box {
   width: 100%;
+  background-color: var(--main-box-bacground);
   padding-top: 200px;
   padding-bottom: 280px;
-  background-color: var(--main-box-bacground);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  margin-top: 0px;
+  display: block;
+  text-align: center;
 }
-.box-tekst {
-  box-sizing: border-box;
-  max-width: 1170px;
+.box-text {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  max-width: 1170px;
   gap: 30px;
-  align-items: center;
   list-style: none;
 }
 .doing {
   display: block;
+  padding-top: 0px;
 }
 .do-galery {
-  max-width: 1170px;
-  flex-direction: row;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   gap: 30px;
   list-style: none;
   margin-top: 50px;
 }
 .workers-section {
-  width: 100%;
-  padding-bottom: 94px;
   background-color: var(--workers-bacghround);
+  display: block;
 }
-
 .workers-galery {
   display: flex;
   justify-content: center;
@@ -271,39 +270,32 @@ body {
   list-style: none;
   padding-top: 50px;
 }
-.footer {
-  width: 100%;
-  margin-bottom: 60px;
-  background-color: var(--main-box-bacground);
-  display: flex;
-  text-decoration: none;
-  margin-left: 0px;
-  padding-left: 0px;
-}
-.foot-design {
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 215px;
-  list-style: none;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  text-decoration: none;
-}
 .box-shadow {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow-col);
   border-radius: 0px 0px 4px 4px;
   align-items: stretch;
-  gap: 30px;
-  padding-bottom: 30px;
   background-color: var(--btn-lighter);
+}
+.footer {
+  width: 100%;
+  background-color: var(--main-box-bacground);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.foot-design {
+  max-width: 1170px;
+  display: flex;
+  justify-content: left;
+}
+.style {
+  font-style: normal;
+  list-style: none;
 }
 .portfolio-bacground {
   background-color: var(--btn-lighter);
 }
 .btn-portfolio {
   display: flex;
-  margin-top: 100px;
   justify-content: center;
   gap: 8px;
   list-style: none;
@@ -313,23 +305,18 @@ body {
   padding-left: 6px;
 }
 .galery {
+  max-width: 1170px;
   display: flex;
-  width: 100%;
-  margin-top: 34px;
   gap: 30px;
   flex-wrap: wrap;
   list-style: none;
-  flex-basis: calc ((100%-30px) 3);
-  justify-content: center;
-  align-items: center;
+  margin-top: 50px;
 }
 .galery-border {
   width: 370px;
   border-left: 1px solid var(--galery-border-col);
   border-right: 1px solid var(--galery-border-col);
   border-bottom: 1px solid var(--galery-border-col);
-  padding-bottom: 94px;
-}
-.style {
-  font-style: normal;
+  padding-bottom: 20px;
+  padding-top: 0%;
 }
