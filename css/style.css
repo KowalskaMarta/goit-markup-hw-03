@@ -20,7 +20,7 @@ body {
   --description-color: #757575;
   --btn-lighter: #ffffff;
   --logo-color: #000000;
-  --footer-contact: rgba (255, 255, 255, 0.6);
+  --footer-contact: rgba(255, 255, 255, 0.6);
   --main-box-bacground: #2f303a;
   --main-btn-shadow: rgba(0, 0, 0, 0.15);
   --workers-bacghround: #f5f4fa;
@@ -115,6 +115,7 @@ body {
   text-align: center;
   padding-top: 0px;
   display: block;
+  margin-top: 50px;
 }
 .worker {
   font-weight: 500;
@@ -196,8 +197,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  justify-content: center;
-  display: flex;
 }
 .section {
   padding-top: 94px;
@@ -226,8 +225,6 @@ body {
   margin-right: 227px;
 }
 .hd-border {
-  display: flex;
-  max-width: 1200px;
   border-bottom: 1px solid var(--hd-border-col);
 }
 .main-box {
@@ -255,7 +252,7 @@ body {
   justify-content: center;
   gap: 30px;
   list-style: none;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .workers-section {
   background-color: var(--workers-bacghround);
@@ -310,7 +307,7 @@ body {
   gap: 30px;
   flex-wrap: wrap;
   list-style: none;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .galery-border {
   width: 370px;
