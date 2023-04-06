@@ -100,6 +100,7 @@ body {
   font-size: 14px;
   color: var(--main-font-color);
   line-height: 1.17;
+  margin-bottom: 10px;
 }
 .description {
   font-weight: 400;
@@ -115,7 +116,6 @@ body {
   text-align: center;
   padding-top: 0px;
   display: block;
-  margin-top: 50px;
 }
 .worker {
   font-weight: 500;
@@ -150,6 +150,9 @@ body {
   color: var(--footer-contact);
   line-height: 1.7;
   width: 100%;
+}
+.foot-logo {
+  color: var(--btn-lighter);
 }
 .foot-address:hover,
 .foot-address:focus {
@@ -252,7 +255,7 @@ body {
   justify-content: center;
   gap: 30px;
   list-style: none;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 .workers-section {
   background-color: var(--workers-bacghround);
